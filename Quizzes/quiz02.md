@@ -9,7 +9,7 @@ print(sum(xs))
 ```
 
 1. [ ] It's impossible to know.
-1. [ ] 13
+1. [x] 13
 1. [ ] Something else.
 
 **In the Python statement x = a + 5 - b:**
@@ -17,7 +17,7 @@ print(sum(xs))
 - a and b are ________
 - a + 5 - b is ________
 
-1. [ ] operands, an expression
+1. [x] operands, an expression
 1. [ ] terms, a group
 1. [ ] operands, an equation
 1. [ ] operators, a statement
@@ -25,12 +25,12 @@ print(sum(xs))
 **What is the value of the expression 100 / 25?
 
 1. [ ] 4
-1. [ ] 4.0
+1. [x] 4.0
 
 **You should use the == operator to determine whether objects of type float are equal.**
 
 1. [ ] True
-1. [ ] False
+1. [x] False
 
 ```python
 1.1 + 2.2 == 3.3
@@ -44,7 +44,7 @@ y = (x < 100.0) and isinstance(x, float)
 ```
 
 1. [ ] None
-1. [ ] True
+1. [x] True
 1. [ ] Correct
 1. [ ] 1
 1. [ ] 0
@@ -52,7 +52,7 @@ y = (x < 100.0) and isinstance(x, float)
 
 **Which of the following are truthy:**
 
-1. [ ] 0.000001
+1. [x] 0.000001
 1. [ ] 0
 1. [ ] []
 1. [ ] True
@@ -67,7 +67,7 @@ b = 200
 ```
 
 1. [ ] 0
-1. [ ] 200
+1. [x] 200
 1. [ ] 100
 1. [ ] False
 1. [ ] True
@@ -79,12 +79,12 @@ x = -100
 from math import sqrt
 x > 0 and sqrt(x)
 ```
-1. [ ] Yes
+1. [x] Yes
 1. [ ] No
 
 **Which of the following operators has the lowest precedence?**
 
-1. [ ] and
+1. [x] and
 1. [ ] not
 1. [ ] %
 1. [ ] +
@@ -92,7 +92,7 @@ x > 0 and sqrt(x)
 
 **What is the value of the expression 1 + 2 ** 3 * 4?**
 
-1. [ ] 33
+1. [x] 33
 1. [ ] 36
 1. [ ] 108
 1. [ ] 4097
@@ -106,13 +106,13 @@ x *= 5
 x = x * 5
 ```
 
-1. [ ] True
+1. [x] True
 1. [ ] False
 
 **The Python Enhancement Proposal (PEP) that enumerates stylistic guidelines for Python code is:**
 
 1. [ ] PEP 8000
-1. [ ] PEP 8
+1. [x] PEP 8
 1. [ ] PEP 257
 1. [ ] PEP 20
 
@@ -126,16 +126,16 @@ x, y = 1, 2
 print(x, y, z)
 ```
 1. [ ] True
-1. [ ] False
+1. [x] False
 
 **Variables must be declared before they are assigned a value.**
 
 1. [ ] True
-1. [ ] False
+1. [x] False
 
 **Variables may be assigned a value of one type, and after be assigned a value of a different type.**
 
-1. [ ] True
+1. [x] True
 1. [ ] False
 
 **How many objects and how many references are created by this program?**
@@ -146,11 +146,11 @@ y = x
 1. [ ] One object, one reference
 1. [ ] Two objects, one reference
 1. [ ] Two objects, two references
-1. [ ] One object, two references
+1. [x] One object, two references
 
 **PEP8 recommend which of the following styles for multi-word variable names:**
 
 1. [ ] customerFirstName (Camel Case)
 1. [ ] CustomerFirstName (Pascal Case)
-1. [ ] customer_first_name (Snake Case)
+1. [x] customer_first_name (Snake Case)
 1. [ ] customer-first-name (Kebab Case)
