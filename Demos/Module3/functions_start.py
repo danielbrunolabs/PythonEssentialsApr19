@@ -2,14 +2,23 @@
 #  Example file for working with functions
 #
 
-# define a basic function
+# name = "John Doe"
 
-# function with arguments
+# # define a basic function
+# def some_function():
+#     global name
+#     name = 'James Smith'
+#     return f'Hello, {name}'
 
-# function with return value
+# greeting = some_function()
 
-# function with default value for an argument
+# print(name)
+# print(greeting)
 
-#function with variable number of arguments
 
 # Lambda functions
+def addition(arg1, arg2):
+    return arg1 + arg2
+
+print(addition)
+print((lambda arg1, arg2: arg1 + arg2))
